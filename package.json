@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "webpack(GRIDER)",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/akaravsky/webpack/issues"
   },
-  "homepage": "https://github.com/akaravsky/webpack#readme"
+  "homepage": "https://github.com/akaravsky/webpack#readme",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
 }
