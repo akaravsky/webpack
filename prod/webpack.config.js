@@ -13,6 +13,13 @@ module.exports = {
         use: 'babel-loader',
         test: /\.js$/,
         exclude: /node_modules/
+      },
+      {
+        use: [
+          'style-loader', // style-loader - takes css modules and stick them in style tag in html file
+         'css-loader' // css-loader - for reading content of css files
+        ],
+        test:  /\.css$/
       }
     ]
   }
